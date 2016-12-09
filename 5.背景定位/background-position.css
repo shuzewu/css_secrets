@@ -1,0 +1,29 @@
+/* 灵活的背景定位 */
+.div-container {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px orangered solid;
+    /*方案一： background-position：指定背景图片的初始位置
+    background: url("imgs/bg.png")
+                #5079bb no-repeat
+                bottom right;
+    background-position: right 20px bottom 10px; */
+
+    /* 方案二：background-origin:指定背景图片background-image 属性的原点位置的背景相对区域.
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background: url("imgs/bg.png") no-repeat #5079bb
+                bottom right;
+    background-origin: content-box; */
+
+    /* 方案三：calc计算属性 */
+    background: url("imgs/bg.png") no-repeat #5079bb;
+    background-position: calc(100% - 20px) calc(100% - 10px);
+
+
+
+}

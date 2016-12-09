@@ -1,0 +1,15 @@
+/* 多重边框 */
+.border-multiply {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: #708960;
+    border: 10px dotted #87bf69;
+    border-radius: 10px;
+    outline: 2px solid #b8d1a1;
+    outline-offset: -20px;
+}

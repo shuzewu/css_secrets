@@ -1,0 +1,16 @@
+/* 半透明边框 */
+body {
+    background: #616e60;
+}
+
+.border-alpha {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 20px solid hsla(0, 0%, 100%, 0.1);
+    background: #7ea78c;
+    background-clip: padding-box;
+}

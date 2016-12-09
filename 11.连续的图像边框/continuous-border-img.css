@@ -1,0 +1,18 @@
+/* 连续的图像边框 */
+
+.border-img {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 1em;
+    border: 1em solid transparent;
+    background: linear-gradient(white, white),
+                url(img/bg.jpg);
+    background-size: cover;
+    background-clip: padding-box, border-box;
+    background-origin: border-box;
+}

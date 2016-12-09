@@ -1,0 +1,11 @@
+/* 自适应椭圆 */
+.ellipse-auto {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid royalblue;
+    border-radius: 50% / 25%;
+}
