@@ -1,8 +1,10 @@
-/* 居中 */
+﻿/* 居中 */
 .inline-block-center {
     text-align: center;
 }
+
 .inline-block-center div {
     display: inline-block;
     text-align: left;
 }
+
