@@ -1,4 +1,4 @@
-/* 垂直居中 */
+﻿/* 垂直居中 */
 .mydiv {
     position: absolute;
     width: 400px;
@@ -8,6 +8,7 @@
     transform: translate(-50%, -50%);
     border: 1px dotted orangered;
 }
+
 .sonDiv {
     position: absolute;
     width: 100px;
